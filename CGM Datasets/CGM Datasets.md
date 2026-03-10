@@ -70,3 +70,15 @@ The datasets are distributed according to the following licences and can be down
   - **Description**: 40,000 synthetic CGM days (288 samples/day); generated via CGAN; public.
   - **Referred Papers**: None.
   - **Original Dataset Paper**: None; description in Mendeley (2021).
+
+- **ShanghaiT1DM and ShanghaiT2DM (2023)**
+  - **Link**: https://figshare.com/collections/Diabetes_Datasets_ShanghaiT1DM_and_ShanghaiT2DM/6310860 
+  - **Description**: T1D (n=12) and T2D (n=100) patients; CGM data at 15-min intervals over 3–14 days per patient; clinical characteristics including age, BMI, HbA1c, complications, and comorbidities; laboratory measurements (fasting/postprandial glucose, C-peptide, insulin, lipids, renal function); full medication records (hypoglycemic agents and other drugs); daily dietary records; real-life acquisition conditions.
+  - **Referred Papers**: Used in blood glucose prediction, Bayesian forecasting, and self-supervised learning benchmarks.
+  - **Original Dataset Paper**: Zhao Q, Zhu J, Shen X, et al. "Chinese diabetes datasets for data-driven machine learning." *Scientific Data* 10, 35 (2023). https://doi.org/10.1038/s41597-023-01940-7
+
+- **DiaTrend (2023)**
+  - **Link**: https://doi.org/10.1038/s41597-023-02469-5 (data access via study authors; see paper for instructions)
+  - **Description**: 54 T1D patients (ages 19–74; 17 male, 37 female); 27,561 days of CGM data (5-min intervals; Dexcom, Abbott, and Medtronic devices) and 8,220 days of insulin pump data (basal/bolus doses, carbohydrate intake logs, insulin-to-carb ratios); recruited across two independent studies (Dartmouth Health 2019; SweetGoals RCT); average ~510 days of follow-up per patient; public with access instructions in paper.
+  - **Referred Papers**: Used in blood glucose prediction, hypoglycemia/hyperglycemia detection, meal detection, and insulin delivery algorithm development.
+  - **Original Dataset Paper**: Temiloluwa Prioleau, Abigail Bartolome, Richard Comi & Catherine Stanger "DiaTrend: A dataset from advanced diabetes technology to enable development of novel analytic solutions." *Scientific Data* 10, 556 (2023). https://doi.org/10.1038/s41597-023-02469-5
