@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+authors:
+  - family-names: Azam
+    given-names: Md Basit
+    affiliation: "Department of Computer Science and Engineering, Tezpur University"
+  - family-names: Singh
+    given-names: Sarangthem Ibotombi
+    affiliation: "Department of Computer Science and Engineering, Tezpur University"
+title: "CGM and ECG Multimodal Datasets"
+version: 1.0.0
+date-released: 2025-01-01
+license: MIT
+repository-code: "https://github.com/basitazam/CGM-ECG-Multimodal-Datasets"
