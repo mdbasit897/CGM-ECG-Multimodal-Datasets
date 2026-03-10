@@ -31,38 +31,24 @@ These are public datasets focused on Continuous Glucose Monitoring (CGM) for dia
   - **Referred Papers**: None.
   - **Original Dataset Paper**: None; study: "Continuous Glucose Monitoring in Youth With Type 1 Diabetes" (no link).
 
-- **Broll et al. (2021)**
-  - **Link**: https://arxiv.org/pdf/2410.05780 (Appendix A for access details; data via original study)
-  - **Description**: 5 subjects (T2D); Dexcom G4 CGM at 5-min intervals; covariates (dynamic known from timestamp); access public via study.
-  - **Referred Papers**: None.
-  - **Original Dataset Paper**: Broll et al. (2021) - Not full citation; part of GlucoBench curation (https://arxiv.org/abs/2410.05780).
-
-- **Colás et al. (2019)**
-  - **Link**: https://arxiv.org/pdf/2410.05780 (Appendix)
-  - **Description**: 201 subjects (mixed T2D/none); MiniMed iPro CGM at 5-min; static demographic/dynamic covariates; public access.
-  - **Referred Papers**: None.
-  - **Original Dataset Paper**: Colás et al. (2019) - Curated in GlucoBench.
-
-- **Dubosson et al. (2018)** (Note: This is D1NAMO, paired with ECG - see paired section for details)
-  - **Link**: https://arxiv.org/pdf/2410.05780
-  - **Description**: 7 subjects (T1D); MiniMed iPro2 CGM at 5-min; dynamic covariates (heart rate, insulin, BP); public.
-  - **Referred Papers**: None.
-  - **Original Dataset Paper**: Dubosson et al. (2018) - "The open D1NAMO dataset" (https://www.sciencedirect.com/science/article/pii/S2352914818301059).
-
-- **Hall et al. (2018)**
-  - **Link**: https://arxiv.org/pdf/2410.05780
-  - **Description**: 56 subjects (normoglycemic/prediabetes/T2D); Dexcom G4 CGM at 5-min; static/dynamic covariates; public.
-  - **Referred Papers**: None.
-  - **Original Dataset Paper**: Hall et al. (2018) - Curated in GlucoBench.
-
 - **Weinstock et al. (2016)**
   - **Link**: https://arxiv.org/pdf/2410.05780
   - **Description**: 192 subjects (T1D); Dexcom G4 CGM at 5-min; static/dynamic covariates; public.
-  - **Referred Papers**: None.
-  - **Original Dataset Paper**: Weinstock et al. (2016) - Curated in GlucoBench.
+  - **Original Dataset Paper**: Weinstock et al. (2016) - Curated in [GlucoBench](https://github.com/IrinaStatsLab/GlucoBench)
+# Data
+
+The datasets are distributed according to the following licences and can be downloaded from the following links outlined in the table below.
+
+| Dataset | License | Number of patients | CGM Frequency |
+| ------- | ------- | ------------------ | ------------- |
+| [Colas](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225817#sec018) | [Creative Commons 4.0](https://creativecommons.org/licenses/by/3.0/us/) | 208 | 5 minutes |
+| [Dubosson](https://doi.org/10.5281/zenodo.1421615) | [Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) | 9 | 5 minutes |
+| [Hall](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005143#pbio.2005143.s010) | [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/) | 57 | 5 minutes |
+| [Broll](https://github.com/irinagain/iglu) | [GPL-2](https://www.r-project.org/Licenses/GPL-2) | 5 | 5 minutes |
+| [Weinstock](https://public.jaeb.org/dataset/537) | [Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) | 200 | 5 minutes |
 
 - **OhioT1DM**
-  - **Link**: http://smarthealth.cs.ohio.edu/OhioT1DM-dataset.html (requires DUA for access)
+  - **Link**: https://ohio.qualtrics.com/jfe/form/SV_02QtWEVm7ARIKIl (requires DUA for access)
   - **Description**: 12 subjects (T1D); 8 weeks of CGM, insulin, physiological sensors, life-events; 5-min sampling; public with agreement.
   - **Referred Papers**: Various (e.g., used in glucose prediction studies).
   - **Original Dataset Paper**: "The OhioT1DM Dataset for Blood Glucose Level Prediction: Update 2020" (https://pmc.ncbi.nlm.nih.gov/articles/PMC7881904/).

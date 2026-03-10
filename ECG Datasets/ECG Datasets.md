@@ -26,26 +26,23 @@ Public ECG datasets for ML/AI in biomedical research, often from PhysioNet, Kagg
   - **Referred Papers**: Used in multimodal studies.
   - **Original Dataset Paper**: None; part of MIMIC series (https://www.nature.com/articles/s41597-023-02153-8 for related).
 
-- **ECG Heartbeat Categorization Dataset**
-  - **Link**: https://www.kaggle.com/datasets/shayanfazeli/heartbeat
-  - **Description**: Heartbeat signals from MIT-BIH and PTB; for classification; public on Kaggle.
-  - **Referred Papers**: Arrhythmia classification.
-  - **Original Dataset Paper**: Derived from MIT-BIH/PTB (no new paper).
-
 - **MEETI**
-  - **Link**: https://arxiv.org/html/2507.15255v1
-  - **Description**: Multimodal ECG from MIMIC-IV (signals, images, reports, labels); 42,000+ records; public.
-  - **Referred Papers**: None.
-  - **Original Dataset Paper**: "MEETI: A Multimodal ECG Dataset from MIMIC-IV-ECG" (2025) (arXiv link).
+  - **Dataset Paper**: https://www.nature.com/articles/s41597-026-06796-1
+  - **Description**: Built on the MIMIC
+-IV-ECG database of over 800,000
+recordings, MEETI aligns each record across four components using unique identifiers: (1) raw
+signals, (2) plotted images, (3) per
+-beat parameters, and (4) interpretation text. This structure
+enables multimodal transformer learning and supports explainable, integrated analysis. MEETI
+provides a robust foundation and benchmark for next
+-generation cardiovascular artificial
+intelligence research
+.
+  - **Dataset**: [MEETI: A Multimodal ECG Dataset from MIMIC-IVECG with Signals, Images, Features and
+Interpretations](https://zenodo.org/doi/10.5281/zenodo.15893351)
 
-- **Abdominal and Direct Fetal ECG Database**
-  - **Link**: https://physionet.org/content/adfecgdb/1.0.0/
-  - **Description**: Multichannel fetal ECGs; public.
-  - **Referred Papers**: Fetal monitoring.
-  - **Original Dataset Paper**: Described on PhysioNet (no specific paper).
 
-- **A Large-Scale Multi-Label 12-Lead ECG Database**
-  - **Link**: https://pmc.ncbi.nlm.nih.gov/articles/PMC9174207/
-  - **Description**: 25,770 12-lead ECGs from 24,666 patients; multi-label; public.
-  - **Referred Papers**: Arrhythmia.
-  - **Original Dataset Paper**: "A large-scale multi-label 12-lead electrocardiogram database with standardized diagnostic statements" (2022) (PMC link).
+- **A large-scale multi-label 12-lead electrocardiogram database with standardized diagnostic statements**
+  - **Dataset Paper**: https://www.nature.com/articles/s41597-022-01403-5
+  - **Description**: The dataset contains 25770 ECG records from 24666 patients, which were acquired from Shandong Provincial Hospital (SPH) between 2019/08 and 2020/08.
+  - **Dataset**: [A large-scale multi-label 12-lead electrocardiogram database with standardized diagnostic statements](https://doi.org/10.6084/m9.figshare.c.5779802.v1)

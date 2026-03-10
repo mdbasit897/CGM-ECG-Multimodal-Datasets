@@ -8,6 +8,12 @@ Datasets with paired ECG and glucose/CGM data, ideal for your multimodal framewo
   - **Referred Papers**: Used in hypo/hyper detection.
   - **Original Dataset Paper**: "The open D1NAMO dataset: A multi-modal dataset for research on non-invasive type 1 diabetes management" (2018) (https://www.sciencedirect.com/science/article/pii/S2352914818301059).
 
+- **OhioT1DM**
+  - **Link**: https://ohio.qualtrics.com/jfe/form/SV_02QtWEVm7ARIKIl (requires DUA for access)
+  - **Description**: 12 subjects (T1D); 8 weeks of CGM, insulin, physiological sensors, life-events; 5-min sampling; public with agreement.
+  - **Referred Papers**: Various (e.g., used in glucose prediction studies).
+  - **Original Dataset Paper**: "The OhioT1DM Dataset for Blood Glucose Level Prediction: Update 2020" (https://pmc.ncbi.nlm.nih.gov/articles/PMC7881904/).
+
 - **CGMacros**
   - **Link**: https://physionet.org/content/cgmacros/1.0.0/
   - **Description**: 45 subjects; dual CGM, macronutrients, food photos, activity, demographics, blood/gut data; 10 days; public.
@@ -21,7 +27,6 @@ Datasets with paired ECG and glucose/CGM data, ideal for your multimodal framewo
   - **Original Dataset Paper**: "HUPA-UCM diabetes dataset" (2024) (https://www.sciencedirect.com/science/article/pii/S2352340924005262).
 
 - **Flagship Dataset of Type 2 Diabetes (AI-READI)**
-  - **Link**: https://fairhub.io/datasets/1
+  - **Link**: https://fairhub.io/datasets/3
   - **Description**: T2D subjects; CGM, wearables (including ECG/HR), fitness trackers; public with registration.
-  - **Referred Papers**: None specified.
-  - **Original Dataset Paper**: None; project description on site (2024).
+  - **Original Dataset Paper**: https://doi.org/10.1038/s42255-024-01165-x
