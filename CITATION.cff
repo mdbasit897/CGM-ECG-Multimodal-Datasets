@@ -9,6 +9,6 @@ authors:
     affiliation: "Department of Computer Science and Engineering, Tezpur University"
 title: "CGM and ECG Multimodal Datasets"
 version: 1.0.0
-date-released: 2025-01-01
+date-released: Sep 19, 2025
 license: MIT
-repository-code: "https://github.com/basitazam/CGM-ECG-Multimodal-Datasets"
+repository-code: "https://github.com/mdbasit897/CGM-ECG-Multimodal-Datasets"
