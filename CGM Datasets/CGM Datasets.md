@@ -78,7 +78,7 @@ The datasets are distributed according to the following licences and can be down
   - **Original Dataset Paper**: Zhao Q, Zhu J, Shen X, et al. "Chinese diabetes datasets for data-driven machine learning." *Scientific Data* 10, 35 (2023). https://doi.org/10.1038/s41597-023-01940-7
 
 - **DiaTrend (2023)**
-  - **Link**: (DiaTrend - A dataset from advanced diabetes technology)[https://doi.org/10.7303/syn38187184] (data access via study authors; see paper for instructions)
+  - **Link**: [DiaTrend - A dataset from advanced diabetes technology](https://doi.org/10.7303/syn38187184) Register for a Synapse account (www.synapse.org), Become a Synapse Certified User with a validated user profile, Submit an Intended Data Use statement, Agree to the Conditions of Use.
   - **Description**: 54 T1D patients (ages 19–74; 17 male, 37 female); 27,561 days of CGM data (5-min intervals; Dexcom, Abbott, and Medtronic devices) and 8,220 days of insulin pump data (basal/bolus doses, carbohydrate intake logs, insulin-to-carb ratios); recruited across two independent studies (Dartmouth Health 2019; SweetGoals RCT); average ~510 days of follow-up per patient; public with access instructions in paper.
   - **Referred Papers**: Used in blood glucose prediction, hypoglycemia/hyperglycemia detection, meal detection, and insulin delivery algorithm development.
   - **Original Dataset Paper**: Temiloluwa Prioleau, Abigail Bartolome, Richard Comi & Catherine Stanger "DiaTrend: A dataset from advanced diabetes technology to enable development of novel analytic solutions." *Scientific Data* 10, 556 (2023). https://doi.org/10.1038/s41597-023-02469-5
