@@ -30,3 +30,10 @@ Datasets with paired ECG and glucose/CGM data, ideal for your multimodal framewo
   - **Link**: https://fairhub.io/datasets/3
   - **Description**: T2D subjects; CGM, wearables (including ECG/HR), fitness trackers; public with registration.
   - **Original Dataset Paper**: https://doi.org/10.1038/s42255-024-01165-x
+
+- **PhysioCGM: A multimodal physiological dataset for non-invasive blood glucose estimation**
+  - **Link**: [Figshare](https://doi.org/10.6084/m9.figshare.28136294)
+  - **Description**: The dataset is organized into two cohort folders, each containing data from five participants. Each subject is identified by a de-identified 
+    code, e.g. c1s01 represents the first subject from cohort 1. Within each subject’s folder, there are three subfolders: zephyr, e4, and CGM, each storing the 
+    data from respective sensors.
+  - **Original Dataset Paper**: https://doi.org/10.1038/s41597-025-06090-6
